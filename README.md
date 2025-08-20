@@ -1,1 +1,4 @@
 # CS305
+For this project our client was Artemis Financial, a consulting firm that was looking to improve their security of their website through file verfication using a checksum and using HTTPS instead of HTTP. It is important to take software security seriously as it is an important part of the trust between the user and the company. Especially for a financial company like Artemis Financial. We were able to improve the security of their website by adding a self-signed SSL certificate and using a checksum to verify the integrity of their files.
+
+In addition to these steps we used a dependency-check tool to scan for vulnerabilities in the dependencies used in the project. Specifically we used the OWASP Dependency-Check tool(https://owasp.org/www-project-dependency-check/) to generate a report we could use to identify any potential vulnerabilities. This was very helpful in creating reports that could be presented to the client. 
